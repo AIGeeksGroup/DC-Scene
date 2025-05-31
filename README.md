@@ -10,7 +10,9 @@ This is the code repository for the paper:
 >
 > **[[arXiv]](https://arxiv.org/abs/2505.15232)** **[[Paper with Code]](https://paperswithcode.com/paper/dc-scene-data-centric-learning-for-3d-scene)**
 > 
-
+<center class='img'>
+<img title="Framework of DC-Scene." src="https://github.com/AIGeeksGroup/DC-Scene/blob/main/images/image.png" width="100%">
+</center>
 ## Citation
 
 If you use any content of this repo for your work, please cite the following our paper:
