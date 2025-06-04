@@ -18,7 +18,7 @@ This is the code repository for the paper:
 
 If you use any content of this repo for your work, please cite the following our paper:
 ```
-@article{dcscene2025,
+@article{huang2025dc,
   title={DC-Scene: Data-Centric Learning for 3D Scene Understanding},
   author={Huang, Ting and Zhang, Zeyu and Zhang, Ruicheng and Zhao, Yang},
   journal={arXiv preprint arXiv:2505.15232},
