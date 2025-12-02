@@ -3,7 +3,7 @@
 This is the code repository for the paper:
 > **DC-Scene: Data-Centric Learning for 3D Scene Understanding**
 >
-> [Ting Huang](https://github.com/Believeht029)\*, [Zeyu Zhang](https://steve-zeyu-zhang.github.io/)\*†, [Ruicheng Zhang](https://github.com/SYSUzrc)\* and [Yang Zhao](https://scholar.google.com.au/citations?user=UrVEK7IAAAAJ&hl=en&oi=sra)\**
+> [Ting Huang](https://github.com/Believeht029)\*, [Zeyu Zhang](https://steve-zeyu-zhang.github.io/)\*†, [Ruicheng Zhang](https://github.com/SYSUzrc) and [Yang Zhao](https://scholar.google.com.au/citations?user=UrVEK7IAAAAJ&hl=en&oi=sra)\**
 >
 > \*Equal contribution. †Project lead. \**Corresponding author
 >
