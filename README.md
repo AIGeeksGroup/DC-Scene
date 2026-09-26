@@ -7,7 +7,7 @@ This is the code repository for the paper:
 >
 > \*Equal contribution. †Project lead. \**Corresponding author
 >
-> ***3DV 2026 Exploration Edge Track***
+> ***PRL 2026 & 3DV 2026 Exploration Edge Track***
 >
 > **[[arXiv]](https://arxiv.org/abs/2505.15232)** **[[Paper with Code]](https://paperswithcode.com/paper/dc-scene-data-centric-learning-for-3d-scene)**
 > 
