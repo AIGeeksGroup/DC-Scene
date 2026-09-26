@@ -42,7 +42,7 @@ The framework follows a quality-scoring–selection–curriculum pipeline:
 
 The experimental schedule processes approximately **50% of the full-data sample budget**. The supplied manuscript reports **13.4 versus 24.6 GPU hours**, a **45.5% reduction**, under the same 1,080-epoch schedule. These are paper results, not measurements from this implementation.
 
-The manuscript leaves the scalar DIQ ranking and feedback frequency unspecified, and its increasing-threshold equations conflict with its expanding experimental schedule. This implementation makes these choices explicit in [method notes](docs/method.md). The default alignment scorer uses pretrained CoCa joint latents; exact external CLIP-aligned embeddings can also be imported.
+The manuscript leaves the scalar DIQ ranking and feedback frequency unspecified, and its increasing-threshold equations conflict with its expanding experimental schedule. The default alignment scorer uses pretrained CoCa joint latents; exact external CLIP-aligned embeddings can also be imported.
 
 ## 📦 Data Preparation
 
@@ -148,7 +148,7 @@ bash scripts/train.sh configs/3dcoca_scanrefer.json \
 
 Add `--refresh_at_stages` to recompute DIQ at epochs 361 and 721. For Vote2Cap, also supply `--alignment_checkpoint`. This optional feedback policy costs two extra full scoring passes; the default uses a fixed cached quality map.
 
-Configurations are available for all four backbone/dataset combinations in [configs/](configs/). Nr3D presets use IoU **0.50**; ScanRefer presets use **0.25**. For static DIQ-75% use `--ratios 0.75 --stage_epochs 1080`; for ablations use `--strategy full`, `random`, `clip`, or `loss`. See [method notes](docs/method.md) for selection semantics.
+Configurations are available for all four backbone/dataset combinations in [configs/](configs/). Nr3D presets use IoU **0.50**; ScanRefer presets use **0.25**. For static DIQ-75% use `--ratios 0.75 --stage_epochs 1080`; for ablations use `--strategy full`, `random`, `clip`, or `loss`.
 
 ## 🤖 Inference
 
