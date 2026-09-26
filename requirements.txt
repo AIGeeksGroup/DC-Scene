@@ -1,0 +1,20 @@
+# Install a CUDA build of torch/torchvision matching your compiler first.
+torch>=2.6,<3
+torchvision>=0.21
+numpy>=1.24,<2
+scipy>=1.10,<2
+transformers==4.44.2
+einops>=0.7,<1
+h5py>=3.8,<4
+tqdm>=4.65
+plyfile>=1.0
+trimesh>=3.23,<5
+networkx>=2.8,<4
+matplotlib>=3.7
+cython>=0.29.36,<3
+setuptools>=68
+ninja>=1.11
+ftfy>=6.1
+regex
+git+https://github.com/openai/CLIP.git
+# 3D CoCa additionally needs MinkowskiEngine built for your CUDA/PyTorch stack.

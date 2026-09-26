@@ -1,0 +1,35 @@
+{
+  "backbone": "3dcoca",
+  "dataset": "scene_scanrefer",
+  "data_root": "data",
+  "scan_root": "data/scannet/scannet_data",
+  "metadata_root": "data/scannet/meta_data",
+  "checkpoint_dir": "outputs/3dcoca_scanrefer",
+  "quality_scores": "outputs/quality/3dcoca_scanrefer.json",
+  "strategy": "diq",
+  "ratios": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "stage_epochs": [
+    360,
+    360,
+    360
+  ],
+  "lower_quantile": 0.05,
+  "upper_quantile": 0.95,
+  "alignment_weight": 0.5,
+  "batchsize_per_gpu": 8,
+  "base_lr": 0.0001,
+  "final_lr": 1e-06,
+  "weight_decay": 0.1,
+  "num_points": 40000,
+  "max_des_len": 32,
+  "use_color": true,
+  "use_normal": true,
+  "use_multiview": false,
+  "eval_every_epochs": 20,
+  "test_min_iou": 0.25,
+  "seed": 0
+}
